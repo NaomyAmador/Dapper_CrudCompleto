@@ -28,235 +28,235 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.PicBox_Decoración = new System.Windows.Forms.PictureBox();
+            this.DataGridView_TablaProductos = new System.Windows.Forms.DataGridView();
+            this.Lbl_DecorativoNúmero1 = new System.Windows.Forms.Label();
+            this.Lbl_DecorativoNúmero2 = new System.Windows.Forms.Label();
+            this.Lbl_DecorativoNúmero3 = new System.Windows.Forms.Label();
+            this.Lbl_DecorativoNúmero4 = new System.Windows.Forms.Label();
+            this.Lbl_DecorativoNúmero5 = new System.Windows.Forms.Label();
+            this.Btn_Crear = new System.Windows.Forms.Button();
+            this.Btn_MostrarTodo = new System.Windows.Forms.Button();
+            this.Btn_Buscar = new System.Windows.Forms.Button();
+            this.Btn_Actualizar = new System.Windows.Forms.Button();
+            this.Btn_Eliminar = new System.Windows.Forms.Button();
+            this.TxtBox_Id = new System.Windows.Forms.TextBox();
+            this.Lbl_Id = new System.Windows.Forms.Label();
+            this.Lbl_Nombre = new System.Windows.Forms.Label();
+            this.TxtBox_Nombre = new System.Windows.Forms.TextBox();
+            this.Lbl_Precio = new System.Windows.Forms.Label();
+            this.TxtBox_Precio = new System.Windows.Forms.TextBox();
+            this.Lbl_Stock = new System.Windows.Forms.Label();
+            this.TxtBox_Stock = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox_Decoración)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaProductos)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // PicBox_Decoración
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(714, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 115);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.PicBox_Decoración.Location = new System.Drawing.Point(714, 12);
+            this.PicBox_Decoración.Name = "PicBox_Decoración";
+            this.PicBox_Decoración.Size = new System.Drawing.Size(151, 115);
+            this.PicBox_Decoración.TabIndex = 0;
+            this.PicBox_Decoración.TabStop = false;
             // 
-            // dataGridView1
+            // DataGridView_TablaProductos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(346, 173);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(519, 213);
-            this.dataGridView1.TabIndex = 1;
+            this.DataGridView_TablaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView_TablaProductos.Location = new System.Drawing.Point(346, 173);
+            this.DataGridView_TablaProductos.Name = "DataGridView_TablaProductos";
+            this.DataGridView_TablaProductos.RowHeadersWidth = 51;
+            this.DataGridView_TablaProductos.RowTemplate.Height = 24;
+            this.DataGridView_TablaProductos.Size = new System.Drawing.Size(519, 213);
+            this.DataGridView_TablaProductos.TabIndex = 1;
             // 
-            // label1
+            // Lbl_DecorativoNúmero1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(657, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.Lbl_DecorativoNúmero1.AutoSize = true;
+            this.Lbl_DecorativoNúmero1.Location = new System.Drawing.Point(594, 13);
+            this.Lbl_DecorativoNúmero1.Name = "Lbl_DecorativoNúmero1";
+            this.Lbl_DecorativoNúmero1.Size = new System.Drawing.Size(112, 16);
+            this.Lbl_DecorativoNúmero1.TabIndex = 2;
+            this.Lbl_DecorativoNúmero1.Text = "Título Principal #1";
             // 
-            // label2
+            // Lbl_DecorativoNúmero2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(660, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.Lbl_DecorativoNúmero2.AutoSize = true;
+            this.Lbl_DecorativoNúmero2.Location = new System.Drawing.Point(594, 37);
+            this.Lbl_DecorativoNúmero2.Name = "Lbl_DecorativoNúmero2";
+            this.Lbl_DecorativoNúmero2.Size = new System.Drawing.Size(75, 16);
+            this.Lbl_DecorativoNúmero2.TabIndex = 3;
+            this.Lbl_DecorativoNúmero2.Text = "Subtítulo #1";
             // 
-            // label3
+            // Lbl_DecorativoNúmero3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(656, 81);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
+            this.Lbl_DecorativoNúmero3.AutoSize = true;
+            this.Lbl_DecorativoNúmero3.Location = new System.Drawing.Point(593, 81);
+            this.Lbl_DecorativoNúmero3.Name = "Lbl_DecorativoNúmero3";
+            this.Lbl_DecorativoNúmero3.Size = new System.Drawing.Size(112, 16);
+            this.Lbl_DecorativoNúmero3.TabIndex = 4;
+            this.Lbl_DecorativoNúmero3.Text = "Título Principal #2";
             // 
-            // label4
+            // Lbl_DecorativoNúmero4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(656, 108);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
+            this.Lbl_DecorativoNúmero4.AutoSize = true;
+            this.Lbl_DecorativoNúmero4.Location = new System.Drawing.Point(593, 108);
+            this.Lbl_DecorativoNúmero4.Name = "Lbl_DecorativoNúmero4";
+            this.Lbl_DecorativoNúmero4.Size = new System.Drawing.Size(75, 16);
+            this.Lbl_DecorativoNúmero4.TabIndex = 5;
+            this.Lbl_DecorativoNúmero4.Text = "Subtítulo #2";
             // 
-            // label5
+            // Lbl_DecorativoNúmero5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(343, 144);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
+            this.Lbl_DecorativoNúmero5.AutoSize = true;
+            this.Lbl_DecorativoNúmero5.Location = new System.Drawing.Point(343, 144);
+            this.Lbl_DecorativoNúmero5.Name = "Lbl_DecorativoNúmero5";
+            this.Lbl_DecorativoNúmero5.Size = new System.Drawing.Size(126, 16);
+            this.Lbl_DecorativoNúmero5.TabIndex = 6;
+            this.Lbl_DecorativoNúmero5.Text = "Título DataGridView";
             // 
-            // button1
+            // Btn_Crear
             // 
-            this.button1.Location = new System.Drawing.Point(210, 173);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 37);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Btn_Crear.Location = new System.Drawing.Point(210, 216);
+            this.Btn_Crear.Name = "Btn_Crear";
+            this.Btn_Crear.Size = new System.Drawing.Size(130, 37);
+            this.Btn_Crear.TabIndex = 7;
+            this.Btn_Crear.Text = "Crear";
+            this.Btn_Crear.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Btn_MostrarTodo
             // 
-            this.button2.Location = new System.Drawing.Point(210, 216);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 37);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Btn_MostrarTodo.Location = new System.Drawing.Point(210, 173);
+            this.Btn_MostrarTodo.Name = "Btn_MostrarTodo";
+            this.Btn_MostrarTodo.Size = new System.Drawing.Size(130, 37);
+            this.Btn_MostrarTodo.TabIndex = 8;
+            this.Btn_MostrarTodo.Text = "Mostrar Todo";
+            this.Btn_MostrarTodo.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Btn_Buscar
             // 
-            this.button3.Location = new System.Drawing.Point(210, 259);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 37);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_Buscar.Location = new System.Drawing.Point(210, 259);
+            this.Btn_Buscar.Name = "Btn_Buscar";
+            this.Btn_Buscar.Size = new System.Drawing.Size(130, 37);
+            this.Btn_Buscar.TabIndex = 9;
+            this.Btn_Buscar.Text = "Buscar";
+            this.Btn_Buscar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Btn_Actualizar
             // 
-            this.button4.Location = new System.Drawing.Point(210, 302);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 37);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Btn_Actualizar.Location = new System.Drawing.Point(210, 302);
+            this.Btn_Actualizar.Name = "Btn_Actualizar";
+            this.Btn_Actualizar.Size = new System.Drawing.Size(130, 37);
+            this.Btn_Actualizar.TabIndex = 10;
+            this.Btn_Actualizar.Text = "Actualizar";
+            this.Btn_Actualizar.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Btn_Eliminar
             // 
-            this.button5.Location = new System.Drawing.Point(210, 345);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(130, 37);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Location = new System.Drawing.Point(210, 345);
+            this.Btn_Eliminar.Name = "Btn_Eliminar";
+            this.Btn_Eliminar.Size = new System.Drawing.Size(130, 37);
+            this.Btn_Eliminar.TabIndex = 11;
+            this.Btn_Eliminar.Text = "Eliminar";
+            this.Btn_Eliminar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // TxtBox_Id
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(17, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 26);
-            this.textBox1.TabIndex = 12;
+            this.TxtBox_Id.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBox_Id.Location = new System.Drawing.Point(17, 120);
+            this.TxtBox_Id.Name = "TxtBox_Id";
+            this.TxtBox_Id.Size = new System.Drawing.Size(138, 26);
+            this.TxtBox_Id.TabIndex = 12;
             // 
-            // label6
+            // Lbl_Id
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 90);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 16);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
+            this.Lbl_Id.AutoSize = true;
+            this.Lbl_Id.Location = new System.Drawing.Point(17, 90);
+            this.Lbl_Id.Name = "Lbl_Id";
+            this.Lbl_Id.Size = new System.Drawing.Size(18, 16);
+            this.Lbl_Id.TabIndex = 13;
+            this.Lbl_Id.Text = "Id";
             // 
-            // label7
+            // Lbl_Nombre
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 167);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "label7";
+            this.Lbl_Nombre.AutoSize = true;
+            this.Lbl_Nombre.Location = new System.Drawing.Point(17, 167);
+            this.Lbl_Nombre.Name = "Lbl_Nombre";
+            this.Lbl_Nombre.Size = new System.Drawing.Size(56, 16);
+            this.Lbl_Nombre.TabIndex = 15;
+            this.Lbl_Nombre.Text = "Nombre";
             // 
-            // textBox2
+            // TxtBox_Nombre
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(17, 197);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(138, 26);
-            this.textBox2.TabIndex = 14;
+            this.TxtBox_Nombre.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBox_Nombre.Location = new System.Drawing.Point(17, 197);
+            this.TxtBox_Nombre.Name = "TxtBox_Nombre";
+            this.TxtBox_Nombre.Size = new System.Drawing.Size(138, 26);
+            this.TxtBox_Nombre.TabIndex = 14;
             // 
-            // label8
+            // Lbl_Precio
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(17, 252);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "label8";
+            this.Lbl_Precio.AutoSize = true;
+            this.Lbl_Precio.Location = new System.Drawing.Point(17, 252);
+            this.Lbl_Precio.Name = "Lbl_Precio";
+            this.Lbl_Precio.Size = new System.Drawing.Size(46, 16);
+            this.Lbl_Precio.TabIndex = 17;
+            this.Lbl_Precio.Text = "Precio";
             // 
-            // textBox3
+            // TxtBox_Precio
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(17, 282);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(138, 26);
-            this.textBox3.TabIndex = 16;
+            this.TxtBox_Precio.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBox_Precio.Location = new System.Drawing.Point(17, 282);
+            this.TxtBox_Precio.Name = "TxtBox_Precio";
+            this.TxtBox_Precio.Size = new System.Drawing.Size(138, 26);
+            this.TxtBox_Precio.TabIndex = 16;
             // 
-            // label9
+            // Lbl_Stock
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(17, 330);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "label9";
+            this.Lbl_Stock.AutoSize = true;
+            this.Lbl_Stock.Location = new System.Drawing.Point(17, 330);
+            this.Lbl_Stock.Name = "Lbl_Stock";
+            this.Lbl_Stock.Size = new System.Drawing.Size(41, 16);
+            this.Lbl_Stock.TabIndex = 19;
+            this.Lbl_Stock.Text = "Stock";
             // 
-            // textBox4
+            // TxtBox_Stock
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(17, 360);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(138, 26);
-            this.textBox4.TabIndex = 18;
+            this.TxtBox_Stock.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtBox_Stock.Location = new System.Drawing.Point(17, 360);
+            this.TxtBox_Stock.Name = "TxtBox_Stock";
+            this.TxtBox_Stock.Size = new System.Drawing.Size(138, 26);
+            this.TxtBox_Stock.TabIndex = 18;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 398);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Lbl_Stock);
+            this.Controls.Add(this.TxtBox_Stock);
+            this.Controls.Add(this.Lbl_Precio);
+            this.Controls.Add(this.TxtBox_Precio);
+            this.Controls.Add(this.Lbl_Nombre);
+            this.Controls.Add(this.TxtBox_Nombre);
+            this.Controls.Add(this.Lbl_Id);
+            this.Controls.Add(this.TxtBox_Id);
+            this.Controls.Add(this.Btn_Eliminar);
+            this.Controls.Add(this.Btn_Actualizar);
+            this.Controls.Add(this.Btn_Buscar);
+            this.Controls.Add(this.Btn_MostrarTodo);
+            this.Controls.Add(this.Btn_Crear);
+            this.Controls.Add(this.Lbl_DecorativoNúmero5);
+            this.Controls.Add(this.Lbl_DecorativoNúmero4);
+            this.Controls.Add(this.Lbl_DecorativoNúmero3);
+            this.Controls.Add(this.Lbl_DecorativoNúmero2);
+            this.Controls.Add(this.Lbl_DecorativoNúmero1);
+            this.Controls.Add(this.DataGridView_TablaProductos);
+            this.Controls.Add(this.PicBox_Decoración);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicBox_Decoración)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,26 +264,26 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.PictureBox PicBox_Decoración;
+        private System.Windows.Forms.DataGridView DataGridView_TablaProductos;
+        private System.Windows.Forms.Label Lbl_DecorativoNúmero1;
+        private System.Windows.Forms.Label Lbl_DecorativoNúmero2;
+        private System.Windows.Forms.Label Lbl_DecorativoNúmero3;
+        private System.Windows.Forms.Label Lbl_DecorativoNúmero4;
+        private System.Windows.Forms.Label Lbl_DecorativoNúmero5;
+        private System.Windows.Forms.Button Btn_Crear;
+        private System.Windows.Forms.Button Btn_MostrarTodo;
+        private System.Windows.Forms.Button Btn_Buscar;
+        private System.Windows.Forms.Button Btn_Actualizar;
+        private System.Windows.Forms.Button Btn_Eliminar;
+        private System.Windows.Forms.TextBox TxtBox_Id;
+        private System.Windows.Forms.Label Lbl_Id;
+        private System.Windows.Forms.Label Lbl_Nombre;
+        private System.Windows.Forms.TextBox TxtBox_Nombre;
+        private System.Windows.Forms.Label Lbl_Precio;
+        private System.Windows.Forms.TextBox TxtBox_Precio;
+        private System.Windows.Forms.Label Lbl_Stock;
+        private System.Windows.Forms.TextBox TxtBox_Stock;
     }
 }
 
