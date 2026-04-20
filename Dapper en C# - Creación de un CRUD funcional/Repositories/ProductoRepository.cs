@@ -26,5 +26,15 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional.Repository
         {
             return new SqlConnection(CadenaConexión);
         }
+
+        //Insertar Productos a la tabla (create)
+        public void InsertarProducto(Producto producto)
+        {
+            using (var Conexión = CrearConexión())
+            {
+                string InsertarConsulta = "INSERT INTO Producto (Nombre, Precio, Stock) VALUES (@Nombre, @Precio, @Stock)";
+                Conexión.Execute(InsertarConsulta, producto);
+            }
+        }
     }
 }
