@@ -255,6 +255,7 @@
             this.Controls.Add(this.PicBox_Decoración);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicBox_Decoración)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_TablaProductos)).EndInit();
             this.ResumeLayout(false);
