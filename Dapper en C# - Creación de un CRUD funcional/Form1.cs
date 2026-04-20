@@ -40,6 +40,12 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
 
             RepositorioProducto.InsertarProducto(Producto);
             MessageBox.Show("Producto agregado correctamente");
+            
+            //Limpiar TextBox's
+            TxtBox_Id.Text = "";
+            TxtBox_Nombre.Text = "";
+            TxtBox_Precio.Text = "";
+            TxtBox_Stock.Text = "";
         }
 
         private void Btn_Buscar_Click(object sender, EventArgs e)
@@ -77,6 +83,12 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
 
             RepositorioProducto.ActualizarProducto(Producto);
             MessageBox.Show("Producto actualizado correctamente");
+
+            //Limpiar TextBox's
+            TxtBox_Id.Text = "";
+            TxtBox_Nombre.Text = "";
+            TxtBox_Precio.Text = "";
+            TxtBox_Stock.Text = "";
         }
 
         private void Btn_Eliminar_Click(object sender, EventArgs e)
@@ -89,6 +101,9 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
 
             RepositorioProducto.EliminarProducto(id);
             MessageBox.Show("Producto eliminado correctamente");
+
+            //Limpiar TextBox's
+            TxtBox_Id.Text = "";
         }
 
         private void Btn_MostrarTodo_Click(object sender, EventArgs e)

@@ -74,5 +74,14 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional.Repository
                 Conexión.Execute(EliminarConsulta, new { Id = Idproducto });
             }
         }
+
+        public List<Producto> VerProductos()
+        {
+            using (var Conexión = CrearConexión())
+            {
+                string ListarConsulta = "SELECT * FROM Producto";
+                return Conexión.Query<Producto>(ListarConsulta).ToList();
+            }
+        }
     }
 }
