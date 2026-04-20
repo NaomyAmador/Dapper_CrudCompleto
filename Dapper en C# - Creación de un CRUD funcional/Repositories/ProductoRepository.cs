@@ -62,5 +62,17 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional.Repository
                 Conexión.Execute(ActualizarConsulta, producto);
             }
         }
+
+        //Eliminar Productos en la tabla (delete)
+        //Aquí se hace algo similar a lo hecho en el método para buscar, colo que aquí se le pone
+        //otro nombre a la variable a comparar: Idproducto.
+        public void EliminarProducto(int Idproducto)
+        {
+            using (var Conexión = CrearConexión())
+            {
+                string EliminarConsulta = "DELETE FROM Producto WHERE Id = @Id";
+                Conexión.Execute(EliminarConsulta, new { Id = Idproducto });
+            }
+        }
     }
 }
