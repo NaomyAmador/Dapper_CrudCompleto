@@ -36,5 +36,20 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional.Repository
                 Conexión.Execute(InsertarConsulta, producto);
             }
         }
+
+        //Buscar Productos en la tabla por Id (read)
+        public Producto ObtenerProductoporId(int id)
+        {
+            //El QueryFirstOrDefault<Producto> le pide a Dapper que devuelva
+            //el primer resultado y que lo conviérta en un objeto Producto.
+            //si lo encuentra devuelve el objeto Producto, sino devuelve null.
+            using (var Conexión = CrearConexión())
+            {
+                string BuscarPorIdConsulta = "SELECT * FROM Producto WHERE Id = @Id";
+                return Conexión.QueryFirstOrDefault<Producto>(BuscarPorIdConsulta, new { Id = id });
+            }
+            //Importante: En esta línea "new {Id = id}" se crea un objeto temporal con el valor del
+            //Id para pasarlo al SQL.
+        }
     }
 }
