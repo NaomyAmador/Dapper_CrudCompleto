@@ -55,5 +55,21 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
                 MessageBox.Show("Id no ecnontrado, asegúrese de insetar uno válido");
             }
         }
+
+        private void Btn_Actualizar_Click(object sender, EventArgs e)
+        {
+            var Producto = new Producto
+            {
+                //Aquí se le indica al DataGridView que seleccione en la tabla la fila que tenemos seleccionada mediante el Id
+                //y que este mismo nos muestre solo los datos pertenecientes al registro con ese Id, y que este nos lo devuelva en texto.
+                Id = int.Parse(DataGridView_TablaProductos.CurrentRow.Cells["Id"].Value.ToString()),
+
+                Nombre = TxtBox_Nombre.Text,
+                Precio = decimal.Parse(TxtBox_Precio.Text),
+                Stock = int.Parse(TxtBox_Stock.Text)
+            };
+
+            RepositorioProducto.ActualizarProducto(Producto);
+        }
     }
 }
