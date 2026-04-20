@@ -51,5 +51,16 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional.Repository
             //Importante: En esta línea "new {Id = id}" se crea un objeto temporal con el valor del
             //Id para pasarlo al SQL.
         }
+
+        //Actualizar Productos en la tabla (Update)
+        public void ActualizarProducto(Producto producto)
+        {
+            using (var Conexión = CrearConexión())
+            {
+                string ActualizarConsulta = @"UPDATE Producto SET Nombre = @Nombre, Precio = @Precio, Stock = @Stock
+                                            WHERE Id = @Id";
+                Conexión.Execute(ActualizarConsulta, producto);
+            }
+        }
     }
 }
