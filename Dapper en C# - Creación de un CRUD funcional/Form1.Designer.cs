@@ -123,6 +123,7 @@
             this.Btn_Crear.TabIndex = 7;
             this.Btn_Crear.Text = "Crear";
             this.Btn_Crear.UseVisualStyleBackColor = true;
+            this.Btn_Crear.Click += new System.EventHandler(this.Btn_Crear_Click);
             // 
             // Btn_MostrarTodo
             // 

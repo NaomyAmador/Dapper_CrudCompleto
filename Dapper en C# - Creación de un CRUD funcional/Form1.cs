@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dapper_en_C____Creación_de_un_CRUD_funcional.Models;
 
 namespace Dapper_en_C____Creación_de_un_CRUD_funcional
 {
@@ -26,6 +27,19 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btn_Crear_Click(object sender, EventArgs e)
+        {
+            var Producto = new Producto
+            {
+                Nombre = TxtBox_Nombre.Text,
+                Precio = decimal.Parse(TxtBox_Precio.Text),
+                Stock = int.Parse(TxtBox_Stock.Text)
+            };
+
+            RepositorioProducto.InsertarProducto(Producto);
+            MessageBox.Show("Producto agregado correctamente");
         }
     }
 }
