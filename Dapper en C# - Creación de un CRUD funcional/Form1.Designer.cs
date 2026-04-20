@@ -133,6 +133,7 @@
             this.Btn_MostrarTodo.TabIndex = 8;
             this.Btn_MostrarTodo.Text = "Mostrar Todo";
             this.Btn_MostrarTodo.UseVisualStyleBackColor = true;
+            this.Btn_MostrarTodo.Click += new System.EventHandler(this.Btn_MostrarTodo_Click);
             // 
             // Btn_Buscar
             // 

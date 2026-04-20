@@ -81,5 +81,10 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
             RepositorioProducto.EliminarProducto(id);
             MessageBox.Show("Producto eliminado correctamente");
         }
+
+        private void Btn_MostrarTodo_Click(object sender, EventArgs e)
+        {
+            DataGridView_TablaProductos.DataSource = RepositorioProducto.VerProductos();
+        }
     }
 }
