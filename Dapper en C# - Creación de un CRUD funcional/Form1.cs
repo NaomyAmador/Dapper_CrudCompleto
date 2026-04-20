@@ -70,6 +70,16 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
             };
 
             RepositorioProducto.ActualizarProducto(Producto);
+            MessageBox.Show("Producto actualizado correctamente");
+        }
+
+        private void Btn_Eliminar_Click(object sender, EventArgs e)
+        {
+            //Nota: Aquí se toma el Id del producto seleccionado en la tabla (como en el anterior).
+            int id = int.Parse(DataGridView_TablaProductos.CurrentRow.Cells["Id"].Value.ToString());
+
+            RepositorioProducto.EliminarProducto(id);
+            MessageBox.Show("Producto eliminado correctamente");
         }
     }
 }

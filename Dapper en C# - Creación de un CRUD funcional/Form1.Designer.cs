@@ -162,6 +162,7 @@
             this.Btn_Eliminar.TabIndex = 11;
             this.Btn_Eliminar.Text = "Eliminar";
             this.Btn_Eliminar.UseVisualStyleBackColor = true;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
             // 
             // TxtBox_Id
             // 
