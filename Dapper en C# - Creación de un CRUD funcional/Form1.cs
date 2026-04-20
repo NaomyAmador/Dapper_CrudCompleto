@@ -41,5 +41,19 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
             RepositorioProducto.InsertarProducto(Producto);
             MessageBox.Show("Producto agregado correctamente");
         }
+
+        private void Btn_Buscar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(TxtBox_Id.Text);
+            var Producto = RepositorioProducto.ObtenerProductoporId(id);
+            if (Producto != null)
+            {
+                DataGridView_TablaProductos.DataSource = new List<Producto> {Producto};
+            }
+            else
+            {
+                MessageBox.Show("Id no ecnontrado, asegúrese de insetar uno válido");
+            }
+        }
     }
 }
