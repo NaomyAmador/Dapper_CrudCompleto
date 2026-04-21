@@ -83,7 +83,7 @@
             this.Lbl_DecorativoNúmero2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Lbl_DecorativoNúmero2.Location = new System.Drawing.Point(291, 49);
             this.Lbl_DecorativoNúmero2.Name = "Lbl_DecorativoNúmero2";
-            this.Lbl_DecorativoNúmero2.Size = new System.Drawing.Size(333, 17);
+            this.Lbl_DecorativoNúmero2.Size = new System.Drawing.Size(303, 17);
             this.Lbl_DecorativoNúmero2.TabIndex = 3;
             this.Lbl_DecorativoNúmero2.Text = "Donde nuestros amigos acuáticos son la prioridad";
             // 
@@ -105,7 +105,7 @@
             this.Lbl_DecorativoNúmero4.ForeColor = System.Drawing.Color.ForestGreen;
             this.Lbl_DecorativoNúmero4.Location = new System.Drawing.Point(12, 9);
             this.Lbl_DecorativoNúmero4.Name = "Lbl_DecorativoNúmero4";
-            this.Lbl_DecorativoNúmero4.Size = new System.Drawing.Size(103, 16);
+            this.Lbl_DecorativoNúmero4.Size = new System.Drawing.Size(94, 16);
             this.Lbl_DecorativoNúmero4.TabIndex = 5;
             this.Lbl_DecorativoNúmero4.Text = "Uso de Dapper";
             // 
@@ -273,7 +273,7 @@
             this.label1.ForeColor = System.Drawing.Color.ForestGreen;
             this.label1.Location = new System.Drawing.Point(12, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(161, 16);
+            this.label1.Size = new System.Drawing.Size(147, 16);
             this.label1.TabIndex = 20;
             this.label1.Text = "como micro ORM en C#";
             // 
@@ -284,7 +284,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(329, 113);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(274, 17);
+            this.label2.Size = new System.Drawing.Size(250, 17);
             this.label2.TabIndex = 21;
             this.label2.Text = "Lo necesario para darles una buena vida";
             // 

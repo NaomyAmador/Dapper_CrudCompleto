@@ -1,14 +1,8 @@
-﻿using Dapper_en_C____Creación_de_un_CRUD_funcional.Repository;
+﻿using Dapper_en_C____Creación_de_un_CRUD_funcional.Models;
+using Dapper_en_C____Creación_de_un_CRUD_funcional.Repository;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Dapper_en_C____Creación_de_un_CRUD_funcional.Models;
 
 namespace Dapper_en_C____Creación_de_un_CRUD_funcional
 {
@@ -81,8 +75,15 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
                 //Stock = int.Parse(TxtBox_Stock.Text)
             };
 
-            RepositorioProducto.ActualizarProducto(Producto);
-            MessageBox.Show("Producto actualizado correctamente");
+            int Filasexistentes = RepositorioProducto.ActualizarProducto(Producto);
+            if (Filasexistentes > 0)
+            {
+                MessageBox.Show("Producto actualizado correctamente");
+            }
+            else
+            {
+                MessageBox.Show("Id no encontrado, asegúrese de insetar uno válido");
+            }
 
             //Limpiar TextBox's
             TxtBox_Id.Text = "";
@@ -99,8 +100,15 @@ namespace Dapper_en_C____Creación_de_un_CRUD_funcional
             //Nota: Aquí se toma el Id del producto seleccionado en la tabla (como en el anterior).
             //int id = int.Parse(DataGridView_TablaProductos.CurrentRow.Cells["Id"].Value.ToString());
 
-            RepositorioProducto.EliminarProducto(id);
-            MessageBox.Show("Producto eliminado correctamente");
+            int Filasexistentes = RepositorioProducto.EliminarProducto(id);
+            if (Filasexistentes > 0)
+            {
+                MessageBox.Show("Producto eliminado correctamente");
+            }
+            else
+            {
+                MessageBox.Show("Id no encontrado, asegúrese de insetar uno válido para eliminar");
+            }
 
             //Limpiar TextBox's
             TxtBox_Id.Text = "";
