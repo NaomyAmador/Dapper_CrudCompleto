@@ -79,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -93,6 +94,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robin Davey.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2828%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2829%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2830%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2831%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sad goldfish GIF by Christina Lu - Find &amp; Share on GIPHY.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animation Illustration GIF by Matchbox Mountain - Find &amp; Share on GIPHY.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
